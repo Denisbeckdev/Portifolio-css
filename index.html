@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Conheça o meu portifólio com alguns dos projetos e as linguagens que trabalhei.">
-        <!-- Link dos ícones -->
+    <!-- Link dos ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/style/style.css">
     <title>Portifólio Denis</title>
 </head>
 
 <body>
-    <header>
+    <header section>
         <h1>DENIS BECK</h1>
         <nav>
             <a href="github"><i class="fa-brands fa-github"></i></a>
@@ -22,39 +22,39 @@
         </nav>
     </header>
 
-    <section>
+    <section class="section-about">
         <div>
-            <h2>Prazer em te conhecer!<br>
-                Eu sou Denis Beck.
-            </h2>
+            <h3>Prazer em te conhecer!</h3>
+            <h2>Eu sou <span> Denis Beck</span></h2>
+
             <p>Morando em Joinville/SC, sou um desenvolvedor front-end apaixonado por criar aplicativos web acessíveis
                 que os usuários adoram.</p>
-            <a href="" target="_blank">ENTRE EM CONTATO</a>
+            <a class="cta-contact" target="_blank">ENTRE EM CONTATO</a>
         </div>
         <img src="./assets/img/profile-denis.jpg" alt="Foto do Denis" width="200">
     </section>
     <hr>
 
-    <section>
-        <h2>Linguagens</h2>
-        <div>
-            <div>
-                <i class="fa-brands fa-html5"></i>
-                <div>
+    <section class="Linguagens-box">
+        <h2><span>Linguagens</span></h2>
+        <div class="Linguaens-box-one">
+            <div class="box">
+                <i class="fa-brands fa-lg fa-html5"></i>
+                <div class="box-text">
                     <h3>HTML</h3>
                     <P>4 meses de experiência</P>
                 </div>
             </div>
-            <div>
-                <i class="fa-brands fa-css3-alt"></i>
-                <div>
+            <div class="box">
+                <i class="fa-brands fa-lg fa-css3-alt"></i>
+                <div class="box-text">
                     <h3>CSS</h3>
                     <P>3 meses de experiência</P>
                 </div>
             </div>
-            <div>
+            <div class="box">
                 <i class="fa-brands fa-js"></i>
-                <div>
+                <div class="box-text">
                     <h3>Javascript</h3>
                     <P>2 meses de experiência</P>
                 </div>
@@ -63,23 +63,36 @@
     </section>
 
     <section>
-        <div>
-            <h2>Projetos</h2>
-            <a href="" target="_blank">ENTRE EM CONTATO</a>
+        <div class="projects">
+            <h2><span>Projetos</span></h2>
+            <a href="" class="cta-contact" target="_blank">ENTRE EM CONTATO</a>
         </div>
-        <div>
+        <div class="box-projects">
             <img src="./assets/img/Blog.png" alt="Imagem do Blog" width="250">
-            <h4>Projeto Blog</h4>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Javascript</span>
+            <div class="box-projects-text">
+                <h4>Projeto Blog</h4>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+            </div>
+            <div class="box-projects-links">
+                <a class="cta-contact" target="_blank">PROJETO</a>
+                <a class="cta-contact" target="_blank">CÓDIGO</a>
+            </div>
         </div>
-        <div>
+
+        <div class="box-projects">
             <img src="./assets/img/Calculadora.png" alt="Imagem da Calculadora" width="250">
-            <h4>Projeto Calculadora</h4>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Javascript</span>
+            <div class="box-projects-text">
+                <h4>Projeto Calculadora</h4>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+            </div>
+            <div class="box-projects-links">
+                <a class="cta-contact" target="_blank">PROJETO</a>
+                <a class="cta-contact" target="_blank">CÓDIGO</a>
+            </div>
         </div>
     </section>
 
@@ -112,4 +125,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
