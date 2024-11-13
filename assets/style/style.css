@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     background-color: #151515;
 }
 
@@ -50,6 +53,7 @@ nav i {
 .section-about h2 span,
 .Linguagens-box h2 span,
 .projects h2 span,
+.contact h2 span,
 .cta-contact {
     border-bottom: 5px solid #5fdde5;
 }
@@ -63,6 +67,12 @@ nav i {
     font-weight: 600;
     text-decoration: none;
     padding: 15px;
+}
+
+.cta-contact:hover {
+    color: #c6c6c6;
+    transform: scale(1.1);
+    transition: all 0.6s;
 }
 
 hr {
@@ -140,6 +150,19 @@ hr {
     margin-right: 20px;
 }
 
+.contact {
+    background-color: #444444;
+    padding: 35px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.contact p {
+    color: #acacac;
+    font-size: 16px;
+    margin: 10px 0 20px;
+}
+
 @media screen and (max-width: 768px) {
     img {
         width: 70%;
@@ -148,3 +171,5 @@ hr {
         margin: 0 0 20px;
     }
 }
+
+/* color: #acacac */
