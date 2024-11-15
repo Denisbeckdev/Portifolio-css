@@ -37,10 +37,6 @@ nav i {
     padding: 0 20px;
 }
 
-.section-about div {
-    flex: 1;
-}
-
 .section-about h3 {
     font-size: 28px;
 }
@@ -51,7 +47,7 @@ nav i {
 }
 
 .section-about h2 span,
-.Linguagens-box h2 span,
+.linguagens-box h2 span,
 .projects h2 span,
 .contact h2 span,
 .cta-contact {
@@ -79,7 +75,7 @@ hr {
     margin: 50px 20px;
 }
 
-.Linguagens-box {
+.linguagens-box {
     color: #fff;
     text-align: left;
 }
@@ -96,7 +92,7 @@ hr {
     text-align: left;
 }
 
-.Linguagens-box h2 {
+.linguagens-box h2 {
     font-size: 28px;
     text-transform: uppercase; 
     margin: 0 5px 40px;
@@ -152,7 +148,7 @@ hr {
 
 .contact {
     background-color: #444444;
-    padding: 35px 20px;
+    padding: 35px 20px 80px;
     text-align: center;
     color: #fff;
 }
@@ -163,6 +159,34 @@ hr {
     margin: 10px 0 20px;
 }
 
+input {
+    width: 95%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin: 10px;
+    color: #fff;  
+    font-size: 16px;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+button.cta-contact {
+    background-color: transparent;
+    border: none;
+    border-bottom: 5px solid #5fdde5;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0 40px;
+    color: #fff;
+}
+
 @media screen and (max-width: 768px) {
     img {
         width: 70%;
@@ -170,6 +194,61 @@ hr {
         order: -1;
         margin: 0 0 20px;
     }
+
+    .section-about div {
+        flex: 1;
+    }
 }
 
-/* color: #acacac */
+@media screen and (min-width: 1020px) {
+    body {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 25px;
+        align-items: center;
+    }
+
+    nav {
+        z-index: 10;
+    }
+
+    .section-about {
+        justify-content: space-between;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .section-about-box {
+        text-align: left;
+    }
+
+    .section-about h3 {
+        font-size: 40px;
+    }
+
+    .section-about h2 {
+        font-size: 45px;
+    }
+
+    .section-about img{
+        width: 40%;
+        height: auto;
+        position: relative;
+        top: -121px;
+    }
+
+    hr {
+        margin: 30px 20px;
+    }
+
+    .linguagens-box-one {
+        display: flex;
+        justify-content: space-around;
+    }
+   
+}
