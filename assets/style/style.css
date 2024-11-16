@@ -72,7 +72,7 @@ nav i {
 }
 
 hr {
-    margin: 50px 20px;
+    margin: 30px 5%;
 }
 
 .linguagens-box {
@@ -148,7 +148,7 @@ hr {
 
 .contact {
     background-color: #444444;
-    padding: 35px 20px 80px;
+    padding: 35px 20px 30%;
     text-align: center;
     color: #fff;
 }
@@ -156,7 +156,7 @@ hr {
 .contact p {
     color: #acacac;
     font-size: 16px;
-    margin: 10px 0 20px;
+    margin: 0 0 20px;
 }
 
 input {
@@ -179,6 +179,7 @@ button.cta-contact {
     border: none;
     border-bottom: 5px solid #5fdde5;
     float: right;
+    margin: 20px;
 }
 
 footer {
@@ -201,7 +202,7 @@ footer {
 }
 
 @media screen and (min-width: 1020px) {
-    body {
+    header, .section-about, .linguagens-box, .section-project, .contact-contaiter {
         max-width: 1000px;
         margin: 0 auto;
     }
@@ -248,7 +249,51 @@ footer {
 
     .linguagens-box-one {
         display: flex;
+        justify-content: space-between;
+    }
+
+    .box-projects {
+        flex: 1; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .two-box-projects {
+        display: flex;
         justify-content: space-around;
     }
+
+    .box-projects img {
+        width: 100%;
+        margin: 0 auto;
+    }
    
+    .box-projects-text {
+        text-align: center;
+        margin: 20px 20px;
+    }
+
+    .contact-contaiter {
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact {
+        text-align: left;
+        color: #fff;
+        padding: 35px 20px;
+    }
+    
+    .contact p {
+        color: #acacac;
+        font-size: 16px;
+        padding: 10px 0 20px
+    }
+
+    form {
+        width: 400px;
+    }
+
 }
