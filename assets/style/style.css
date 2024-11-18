@@ -13,6 +13,10 @@ font-family: 'Poppins', sans-serif;
 font-family: 'young serif', serif;
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     color: #fff;
     text-align: center;
@@ -47,7 +51,7 @@ nav i {
 }
 
 .section-about h2 span,
-.linguagens-box h2 span,
+.languages-box h2 span,
 .projects h2 span,
 .contact h2 span,
 .cta-contact {
@@ -75,7 +79,7 @@ hr {
     margin: 30px 5%;
 }
 
-.linguagens-box {
+.languages-box {
     color: #fff;
     text-align: left;
 }
@@ -92,7 +96,7 @@ hr {
     text-align: left;
 }
 
-.linguagens-box h2 {
+.languages-box h2 {
     font-size: 28px;
     text-transform: uppercase; 
     margin: 0 5px 40px;
@@ -202,7 +206,7 @@ footer {
 }
 
 @media screen and (min-width: 1020px) {
-    header, .section-about, .linguagens-box, .section-project, .contact-contaiter {
+    header, .section-about, .languages-box, .section-project, .contact-container {
         max-width: 1000px;
         margin: 0 auto;
     }
@@ -247,7 +251,7 @@ footer {
         margin: 30px 20px;
     }
 
-    .linguagens-box-one {
+    .languages-box-one {
         display: flex;
         justify-content: space-between;
     }
@@ -274,7 +278,7 @@ footer {
         margin: 20px 20px;
     }
 
-    .contact-contaiter {
+    .contact-container {
         padding: 50px 0;
         display: flex;
         justify-content: space-around;
