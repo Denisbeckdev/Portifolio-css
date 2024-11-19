@@ -312,4 +312,11 @@ footer {
         width: 400px;
     }
 
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
 }
