@@ -192,6 +192,14 @@ footer {
     color: #fff;
 }
 
+@media screen and (max-width: 375px) {
+    .contact p {
+        font-size: 14px;
+        line-height: 1.5; 
+        padding: 10px; 
+    }
+}
+
 @media screen and (max-width: 768px) {
     img {
         width: 70%;
