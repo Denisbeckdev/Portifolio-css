@@ -222,6 +222,10 @@ footer {
         z-index: 10;
     }
 
+    nav i {
+        font-size: 20px; 
+    }
+
     .section-about {
         justify-content: space-between;
         flex-direction: row;
